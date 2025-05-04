@@ -1,0 +1,15 @@
+[Unit]
+Description=IacAgent - Assistant IA CLI pour DevOps
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 %h/iacagent/agent.py --daemon
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+Environment="PYTHONUNBUFFERED=1"
+
+[Install]
+WantedBy=default.target

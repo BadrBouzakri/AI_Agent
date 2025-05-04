@@ -1,0 +1,17 @@
+{
+    "api_key": "n46jy69eatOFdxAI7Rb0PXsj6jrVv16K",
+    "settings": {
+      "dry_run": false,
+      "log_level": "INFO",
+      "model": "mistral-large-latest",
+      "temperature": 0.2
+    },
+    "security": {
+      "additional_dangerous_keywords": [
+        "format disk",
+        "wipe",
+        "drop database",
+        "DROP TABLE"
+      ]
+    }
+  }
