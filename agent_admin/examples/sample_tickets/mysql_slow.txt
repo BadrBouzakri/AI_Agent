@@ -1,0 +1,15 @@
+Objet: Base de données MySQL anormalement lente
+
+Bonjour à l'équipe support,
+
+Depuis hier soir, notre application web est extrêmement lente. Après quelques vérifications préliminaires, nous pensons que le problème vient de notre serveur MySQL 8.0 qui tourne sur AlmaLinux 9.
+
+Les requêtes qui prenaient habituellement moins d'une seconde mettent maintenant plus de 30 secondes à s'exécuter. Le serveur ne semble pas surchargé en termes de CPU ou de mémoire, mais les temps de réponse sont catastrophiques.
+
+La base de données fait environ 50 Go et nous avons environ 200 utilisateurs simultanés en période de pointe.
+
+Merci de nous aider à résoudre ce problème urgent.
+
+Cordialement,
+Sophie Martin
+Développeur Backend

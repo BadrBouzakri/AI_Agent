@@ -1,0 +1,13 @@
+ALERTE CRITIQUE: Service Apache arrêté sur srv-web-01
+
+Détails de l'alerte:
+- Heure: 2025-05-16 14:12:05
+- Serveur: srv-web-01.example.com
+- Service: check_httpd
+- État: CRITIQUE
+- Informations: Service httpd arrêté - Dernier redémarrage à 14:10:23
+
+Type d'alerte: Service arrêté
+Serveur affecté: srv-web-01.example.com
+Environnement: Production
+Impact: Site vitrine de l'entreprise inaccessible

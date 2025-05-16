@@ -1,0 +1,13 @@
+Objet: Problème avec le certificat SSL sur le serveur Web Apache
+
+Bonjour,
+
+Nous avons un problème avec notre site web https://example.com qui affiche une erreur de certificat SSL expiré depuis ce matin. Le site est hébergé sur un serveur Rocky Linux 9.2 avec Apache 2.4.53.
+
+Le certificat a été renouvelé il y a deux jours via Let's Encrypt, mais visiblement, le nouveau certificat n'est pas utilisé correctement.
+
+Pouvez-vous nous aider à résoudre ce problème rapidement ? C'est un site de production et cette erreur bloque nos utilisateurs.
+
+Merci d'avance,
+Jean Dupont
+Responsable informatique

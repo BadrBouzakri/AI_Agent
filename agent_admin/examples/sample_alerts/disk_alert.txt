@@ -1,0 +1,13 @@
+ALERTE CRITIQUE: Espace disque faible sur srv-prod-db1
+
+Détails de l'alerte:
+- Heure: 2025-05-16 08:35:22
+- Serveur: srv-prod-db1.example.com
+- Service: check_disk
+- État: CRITIQUE
+- Informations: / - CRITIQUE - espace libre: 682 Mo (2% inode=88%)
+
+Type d'alerte: espace disque
+Serveur affecté: srv-prod-db1.example.com
+Environnement: Production
+Impact: Base de données principale, risque de saturation complète
